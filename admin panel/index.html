@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin panel</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container">
+        <!--Side bar-->
+        <div id="sidebar">
+            <!--logo-->
+            <div id="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <!--navigation bar-->
+            <div id="button" class="openNav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!--main nav bar-->
+        <div id="navbar-container">
+            <div id="navbar">
+                <ul>
+                    <li class="active"><a href="#">Dashboard</a></li>
+                    <li><a href="#">Posts</a></li>
+                    <li><a href="#">Customize</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!--Main page-->
+        <div id="main">
+            <!--page header-->
+            <div id="header">
+                <div id="title">Dashboard</div>
+                <!--Search box-->
+                <div id="searchBox">
+                    <input type="text" name="" placeholder="Search or type URL...">
+                    <input type="submit" value="Search">
+                </div>
+                <!--Logout button-->
+                <div id="logout">Logout</div>
+            </div>
+        
+        <!--Data-->
+            <div id="analytics">
+                <!--Cards-->
+                <!--Users card-->
+                <div class="cards">
+                    <!--Icons-->
+                    <i class="fa fa-users icons"></i>
+                    <h2>76</h2>
+                    <h4>User</h4>
+                </div>
+                <!--Projects card-->
+                <div class="cards">
+                    <!--Icons-->
+                    <i class="fa fa-window-restore icons"></i>
+                    <h2>422</h2>
+                    <h4>Projects</h4>
+                </div>
+                <!--Customers card-->
+                <div class="cards">
+                    <!--Icons-->
+                    <i class="fa fa-newspaper-o icons" ></i>
+                    <h2>658</h2>
+                    <h4>Customers</h4>
+                </div>
+                
+                <!--Earnings card-->
+                <div class="cards">
+                    <!--Icons-->
+                    <i class="fa fa-usd icons" ></i>
+                    <h2>76</h2>
+                    <h4>Earnings</h4>
+                </div>
+            </div>
+
+            <!--User detail-->
+            <table id="table">
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Codenow812</td>
+                    <td>Codenow812@gmail.com</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Game</td>
+                    <td>game@gmail.com</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>SQLcoder</td>
+                    <td>sqlcoder812@gmail.com</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Webdeveloper</td>
+                    <td>developer@gmail.com</td>
+                    <td>Online</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
